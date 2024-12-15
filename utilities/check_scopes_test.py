@@ -1,0 +1,5 @@
+from utilities.auth import check_scopes
+
+# Test için Access Token girin
+access_token = "BQBUud1B2PZKOYvEaBAyNvcB1zoZ6Ct_L9rDz42xWXJKc9x3K610zw4G7vA0HI7EAMP0SBTdb9zRuVOluRiBEsqVnzp8Qydm6qq5skTFA1wP3U4ozwYASqAMORK5sK-ltY7dyb6z9GrytBcdRQ65EyAXjd1Z2RY-fJyJArCkrfcCI9-mysBpjL2CMbPXiX6l0t2I5cMGt-ssesT-kEI"
+check_scopes(access_token)
